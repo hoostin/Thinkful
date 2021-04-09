@@ -1,0 +1,11 @@
+{
+  "name": "package-json-practice",
+  "version": "1.0.0",
+  "description": "Qualified ",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Austin Mckee",
+  "license": "ISC"
+}
