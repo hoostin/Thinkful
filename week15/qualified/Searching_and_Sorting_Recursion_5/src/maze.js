@@ -11,10 +11,7 @@ function mazeSolver(maze, index = [0, 0]) {
 
   const array1Length = maze.length;
   const array2Length = maze[index[0]].length;
-  let down;
-  let right;
-  let left;
-  let up;
+  let down, right, left, up;
   let path = "";
   if (array1Length - 1 > index[0]) {
     down = maze[index[0] + 1][index[1]];
